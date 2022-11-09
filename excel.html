@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Full Review - Arthur Buisson</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <script src='./js/script.js'></script>
+</head>
+<body>
+    <header>
+        <h1>Excel Functions</h1>
+        <nav>
+            <u>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </u>
+        </nav>
+    </header>
+
+    <main>
+        <div class="functions">
+            <label for="numbers">Enter your numbers separated by spaces :</label>
+            <input type="text" id="numbers"><br>
+        </div>
+
+        <div class="functions">
+            <input type="radio" name="excelFunctions" value="autoSum" checked>
+            <label for="">AutoSum</label><br>
+            <input type="radio" name="excelFunctions" value="average">
+            <label for="">Average</label><br>
+            <input type="radio" name="excelFunctions" value="max">
+            <label for="">Max</label><br>
+            <input type="radio" name="excelFunctions" value="min">
+            <label for="">Min</label><br>
+
+            <button onclick="myExcelFuns()" type="button" id="buttons">Calculate</button>
+        </div>
+
+        <hr>
+        <div id="result">
+
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - Arthur Buisson
+        </p>
+    </footer>
+</body>
+</html>
